@@ -83,7 +83,6 @@ export const usePollingFieldValue = <T>({
     errorTargetValue,
     pollingInterval,
     maxRetries,
-    retryCount,
     status,
     clearPollingInterval,
     handleRetry,
